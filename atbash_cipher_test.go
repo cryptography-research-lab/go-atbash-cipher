@@ -6,7 +6,7 @@ import (
 )
 
 func TestDecrypt(t *testing.T) {
-	plaintext := "abcdefg"
+	plaintext := "HELLO"
 	encryptResult := Encrypt(plaintext)
 	fmt.Println(encryptResult)
 	decryptResult := Decrypt(encryptResult)

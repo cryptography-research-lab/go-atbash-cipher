@@ -1,6 +1,8 @@
 package atbash_cipher
 
-import "unicode/utf8"
+import (
+	"unicode/utf8"
+)
 
 // 因为是对称的，所以只需要做一张映射表就可以了，映射表是固定的
 var mappingTable = make(map[rune]rune, 0)
